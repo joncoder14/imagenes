@@ -1,0 +1,46 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50rem;
+    height: 50rem;
+    margin: 0 25%;
+    background-color: blueviolet;
+    
+    
+}
+
+.contenedor-img {
+    width: 30rem;
+    height: 30rem;
+    background-color: aliceblue
+}
+
+.cambiar-btn {
+    width: 30rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border: thin;
+    font-size: 1.5rem;
+    background-color: rgb(206, 2, 2);
+    transition: .3s ease;
+    margin: 4rem;
+}
+
+.cambiar-btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: red;
+}
+
+.nombre-jugador {
+    background-color: rgb(0, 255, 200);
+    color: black;
+    border: thin;
+    width: 30rem;
+    height: 3rem;
+    border-radius: 1rem;
+    
+}
